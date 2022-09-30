@@ -1,17 +1,19 @@
 # !! In case there is an error during npm install
-    npm install --save /*the package with the error*/ --legacy-peer-deps
+```CMD
+npm install --save /*the package with the error*/ --legacy-peer-deps
+```
 # Tutorial react js
 
 ## Clear cache first
-```
+```CMD
 npx clear-npx-cache
 ```
 ## Create the app
-```
+```CMD
 npx create-react-app appName
 ```
 ## Run the app
-```
+```CMD
 npm run start
 ```
 ## Use "className" instead of "class" in jsx
@@ -32,7 +34,7 @@ const title = 'welcome'
 import GameList from './GameList';
 ```
 - Then place it like this
-```html
+```JSX
 <GameList></GameList> 
 ```
 - Or like this
@@ -175,7 +177,7 @@ const useFetch = (url) => {
 ```
 ## NEW VERSION OF REACT ROUTER : (V6)
 ### Installation
-```
+```CMD
 npm install react-router-dom@6
 ```
 ### Utilisation
@@ -250,13 +252,13 @@ let { username } = useParams()
 
 ## Material UI
 ### Installation
-```
+```CMD
 npm install @material-ui/core --force
 npm install @material-ui/icons --force
 npm install @mui/material @emotion/react @emotion/styled
 ```
 ### Import
-```
+```JSX
 import {} from @mui/material
 ```
 
